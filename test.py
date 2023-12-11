@@ -13,7 +13,7 @@ number = input("Enter the PhoneNumber with the country code : ")
 phoneNumber = phonenumbers.parse(number)
  
 # Storing the API Key in the Key variable
-Key = "97ee51e36c8e4265bafb322611b6c1db" #generate your api https://opencagedata.com/api
+Key = "Enter the PhoneNumber with the country code :" #generate your api https://opencagedata.com/api
  
 # Using the geocoder module of phonenumbers to print the Location in console
 yourLocation = geocoder.description_for_number(phoneNumber,"en")
